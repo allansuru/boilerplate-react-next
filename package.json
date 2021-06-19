@@ -6,9 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src",
+    "lint": "eslint src --max-warnings=0",
     "postinstall": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "dependencies": {
     "next": "11.0.0",
