@@ -16,6 +16,12 @@
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix",
+      "yarn test"
+    ]
+  },
   "dependencies": {
     "next": "11.0.0",
     "react": "17.0.2",
