@@ -1661,7 +1661,7 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@storybook/addon-actions@6.2.9", "@storybook/addon-actions@^6.2.9":
+"@storybook/addon-actions@6.2.9":
   version "6.2.9"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.2.9.tgz#688413ac77410690755a5da3c277bfa0ff1a10b0"
   integrity sha512-CkUYSMt+fvuHfWvtDzlhhaeQBCWlUo99xdL88JTsTml05P43bIHZNIRv2QJ8DwhHuxdIPeHKLmz9y/ymOagOnw==
@@ -1779,24 +1779,6 @@
     "@storybook/api" "6.2.9"
     "@storybook/node-logger" "6.2.9"
     core-js "^3.8.2"
-    regenerator-runtime "^0.13.7"
-    ts-dedent "^2.0.0"
-
-"@storybook/addon-links@^6.2.9":
-  version "6.2.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.2.9.tgz#3399d14b0fc587bccdaa602f6294bc8b249c09f0"
-  integrity sha512-pBiL6EUZI3c9qtCqnGx3RXF46kAxGMdo4xDC2y3mM132W//DzxkzLZRe4ZhxxGwaLzTNlNrypZ6Li6WyIaPZ/w==
-  dependencies:
-    "@storybook/addons" "6.2.9"
-    "@storybook/client-logger" "6.2.9"
-    "@storybook/core-events" "6.2.9"
-    "@storybook/csf" "0.0.1"
-    "@storybook/router" "6.2.9"
-    "@types/qs" "^6.9.5"
-    core-js "^3.8.2"
-    global "^4.4.0"
-    prop-types "^15.7.2"
-    qs "^6.10.0"
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
