@@ -29,8 +29,6 @@ export const Description = styled.h2`
 export const Author = styled.h3`
   font-weight: 500;
 `
-
-
 export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
